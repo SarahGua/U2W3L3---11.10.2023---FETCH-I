@@ -11,8 +11,7 @@ const bookLibrary = function(){
         for (let i=0; i<bookData.length;  i++){
             const col = document.createElement('div')
             const row = document.getElementById('row')
-            col.classList.add('col')
-            col.classList.add('col-4')
+            col.classList.add('col', 'col-4')
             row.appendChild(col)
 
             const card = document.createElement('div')
@@ -31,9 +30,6 @@ const bookLibrary = function(){
 
             const titleBook = document.createElement('h5')
             titleBook.classList.add('card-title')
-            titleBook.classList.add('text-nowrap')
-            titleBook.classList.add('overflow-hidden')
-            titleBook.classList.add('text-truncate')
             titleBook.innerText = bookData[i].title
             divMain.appendChild(titleBook)
 
@@ -43,8 +39,7 @@ const bookLibrary = function(){
             titleBook.appendChild(parag)
 
             const button = document.createElement('button')
-            button.classList.add('btn')
-            button.classList.add('btn-primary')
+            button.classList.add('btn', 'btn-primary')
             button.setAttribute('href', '#' )
             button.innerText = 'SCARTA'
             parag.appendChild(button)
