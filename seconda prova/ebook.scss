@@ -1,0 +1,38 @@
+.card-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-4{
+  height: 80vh;
+  margin: 1em 0;
+
+}
+
+.card{
+    height: 100%;
+}
+
+h5{
+    font-weight: bold;
+}
+
+p.card-text{
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1em;
+}
+
+button{
+    margin-top: 1em;
+}
+
+.card-img-top{
+    height: 58%;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
